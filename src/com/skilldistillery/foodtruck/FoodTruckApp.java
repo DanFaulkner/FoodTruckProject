@@ -20,7 +20,7 @@ public class FoodTruckApp {
 		System.out.println("Please enter information on your favorite or least favorite food trucks!");
 
 		while (keepGoing == true) {
-			System.out.print("Enter the name of your food truck: ");
+			System.out.print("Enter the name of your food truck or type quit to go to the next menu: ");
 			ftname = sc.nextLine();
 			if (ftname.equalsIgnoreCase("quit")) {
 				keepGoing = false;
@@ -39,6 +39,11 @@ public class FoodTruckApp {
 				truckID = truck.getTruckID();
 				i++;
 				numOfTrucks++;
+			}
+			if(numOfTrucks >= 5) {
+				System.out.println("You have entered the max number of trucks.");
+				keepGoing = false;
+				break;
 			}
 
 		}
