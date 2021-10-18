@@ -26,7 +26,7 @@ public class FoodTruckApp {
 				keepGoing = false;
 				break;
 			} else {
-				System.out.println("Enter the type of food served there: ");
+				System.out.print("Enter the type of food served there: ");
 				fdType = sc.nextLine();
 
 				System.out.print("On a scale of 1 to 5 what would you rate this food truck?");
