@@ -3,7 +3,7 @@
 ## Description
 This is my second project while attending Skill Distillery.
 
-This program will store up to five food trucks that the user inputs. It will list the food trucks, take the average of the ratings, and display the highest rated. After entering 5 trucks or if you wish to stop before entering 5 trucks type "quit" into the "enter the truck name field" and it will send you to a new menu screen.
+This program will store up to five food trucks that the user inputs. It will list the food trucks, take the average of the ratings, and display the highest rated. After entering 5 trucks or if you type "quit" into the "name of food truck" field it will go to the next set of menu options.
 
 Start program and follow prompts.
 ## Lesson Learned
